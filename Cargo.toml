@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "modules/01-hello-world",
+    "modules/02a-simple-types",
+    "modules/02b-complex-types",
+    "modules/03a-types-ownership",
+    "modules/03b-fn-ownership",
+    "modules/04a-types-borrowing",
+    "modules/04b-types-borrowing-rules",
+    "modules/05a-lifetimes",
+    "modules/05b-lifetimes-safety",
+    "modules/06-concurrency"
+]
+resolver = "2"
