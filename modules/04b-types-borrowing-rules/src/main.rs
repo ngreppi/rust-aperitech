@@ -4,9 +4,9 @@ use rand::Rng;
 
 fn main() {
     let mut my_data = Data { descr: String::from("My data feed"), feed: vec![0.0; 10] };
-    let mut my_data_2 = &mut my_data;
+    let mut _my_data_2 = &mut my_data;
     enrich_data(&mut my_data);
-    // my_data_2.descr = String::from("My data feed 2");
+    // _my_data_2.descr = String::from("My data feed 2");
     println!("{my_data}");
 }
 
