@@ -24,7 +24,7 @@ struct Data {
 }
 
 impl fmt::Display for Data {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         writeln!(f, "Description: {}", self.descr)?;
         writeln!(f, "Feed: [")?;
         for value in &self.feed {
